@@ -1,0 +1,483 @@
+<html>
+ <head>
+  <title>Alumni Portal</title>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY=" crossorigin="anonymous" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+
+<style>
+  body
+  {
+    overflow-x:hidden;
+    margin:0;
+  padding:0;
+  }
+#footer
+{
+  
+  overflow-y: auto;
+  margin-bottom:0;
+  padding-top:5px;
+color:#ffffe6;
+text-align:center; 
+background-color:skyblue;
+}
+#third{
+border:2px solid white;
+padding:10px;
+color:white;
+background-color:#900000;
+}
+#first{
+border:2px solid white;
+background-color:#900000;
+}
+#sec{
+border:2px solid white;
+text-align:center;
+color:white;
+padding-top:20px;
+background-color:#900000;}
+#logo{
+justify-content:center;
+padding-left:20px;
+border:5px solid #900000;
+}
+.link{
+color:white;
+background-color:#2b3f7c;}
+nav{
+background-color: #ffffe6;
+color:#fff;
+
+}
+
+.nav-link{
+  text-decoration: none;
+  color:#900000;
+  font-weight: bold;
+}
+.nav-link:hover{
+box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+}
+.custom-toggler.navbar-toggler { 
+            border-color: lightgreen; 
+        } 
+        /* Setting the stroke to green using rgb values (0, 128, 0) */ 
+          
+        .custom-toggler .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        } 
+.move{
+margin-top: 20px;
+  padding:20px;
+  box-shadow:0 0 20px 0 black;
+  
+}
+.move:hover{
+  transform:translateY(-20px);
+box-shadow:0 0 20px 0 #003399;
+}
+.association{
+  background-image:url('wall.jpg');
+  background-size: 100%;
+
+}
+.association h3{
+ color:white;
+  padding-top:30px;
+  padding-bottom:40px;
+}
+.rectangle{
+  background-color:#fff;
+  padding :10px;
+}
+.association i{
+  margin :20px;
+  font-size: 54px;
+border-radius: 50%;
+padding: 30px;
+color:#fff;
+background-color:#003399;
+}
+.directory h3{
+color:#fff;
+padding:30px;
+}
+.directory{
+  background-color: #003399;
+}
+.directory i{
+  color:#003399;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 30px;
+  margin :20px;
+}
+.directory h5,.directory p{
+color:#fff;
+}
+.moov{
+  box-shadow:0 0 20px 0 white;
+}
+.moov:hover{
+  box-shadow:0 0 20px 0 black;
+}
+.msg{
+  background:#e6e6e6;
+  padding:20px;
+}
+.rounded-circle{
+   height: 200px;
+  width: 150px;
+  border-radius: 50%;
+
+}
+#ask  {
+background: linear-gradient(to bottom, black 0%,black 50%,#000000 20%,white 80%,white 100%); /* W3C */
+}
+.contact{
+background: skyblue;
+margin:0;
+}
+.con{
+  box-shadow:0 0 20px 0 black;
+  background: white;
+  margin:20px;
+}
+.map{
+  box-shadow:0 0 10px 0 black;
+  margin:20px;
+  background: white;
+}
+#co{
+  padding:50px 0 50px 0;
+  text-align: left;
+}
+.quick{
+  background:#001a33;
+  padding :30px;
+  text-align:center;
+}
+.quick a{
+ word-spacing: 2px;
+ padding-right: 10px;
+ font-weight: bold;
+ color:white;
+}
+.bord{
+  border-right: 1px solid white;
+}
+.son{
+  padding:30px;
+  margin:0;
+  height:260px;
+  background-image: url('bg1.jpg');
+}
+.son p{
+  text-align:center;
+}
+</style>
+</head>
+<body>
+<div  id="footer">
+<p class="text-center">For official website of Knit Sultanpur, Please go to "knit.ac.in"</p>
+</div>
+ <div class="container-fluid">
+ <div   class="row">
+ <div id="first" class="text-center col-md-3 col-lg-3 col-xl-3">
+ <img id="logo" src="knitlogo.jif" width="150px" height="120px" >
+  </div>
+ <div id="sec" class="col-md-6 col-lg-6 col-xl-6">
+  <h1 class="text-center">KNIT Sultanpur Alumni Portal</h1>
+   </div>
+   <div id="third" class="text-center col-md-3 col-lg-3 col-xl-3">
+  <a class="link" href="www.gmail.com"> <i class="fas fa-envelope-square">knit.16635@gmail.com</i></a><br><br>
+	<a class="link" href="www.gmail.com"><i class="fas fa-phone-square">+91-9125292576</i></a><br><br>
+		<a class="link" href="www.facebook.com"><i class="fab fa-facebook-square" >  Facebook ID</i></a>
+   </div>
+   </div>
+   </div>
+
+<nav class="navbar navbar-expand-lg ">
+<button class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#nava"> <span class="navbar-toggler-icon"></span> </button>
+<div class="collapse navbar-collapse" id="nava">
+    <ul class="navbar-nav text-center">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Facilities</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Alumni
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/registration">Alumni Registration</a>
+          <a class="dropdown-item" href="/directory">Alumni Association</a>
+        </div>
+      </li>
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Events
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Upcoming Events</a>
+          <a class="dropdown-item" href="#">Past Events</a>
+        </div>
+      </li>
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Donate Here
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Alumni-Inside INDIA</a>
+          <a class="dropdown-item" href="#">Alumni-Outside INDIA</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">Contact Us</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav text-center ml-auto">
+          <li class="nav-item " >
+        <a class="nav-link " href="/login"><button>Login/Signup</button></a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+	<li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slide1.jpg" height="450px" width="100%"  alt="Los Angeles">
+	    <div class="carousel-caption">
+    <h3>KNIT Sultanpur 1970 batch Alumni Meet........</h3>
+
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="slide2.jpg" height="450px" width="100%" alt="Chicago">
+	    <div class="carousel-caption">
+    <h3>KNIT Sultanpur 1980 batch Alumni Meet........</h3>
+
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="slide3.jpg" height="450px" width="100%" alt="New York">
+	    <div class="carousel-caption">
+    <h3>KNIT Sultanpur 1990 batch Alumni Meet........</h3>
+
+  </div>
+    </div>
+	<div class="carousel-item">
+  <img src="awards.png" height="450px" width="100%" alt="Los Angeles">
+  <div class="carousel-caption">
+    <h3 style="color:#fff" >Our top Alumnies ........</h3>
+  </div>
+</div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+ 
+<div class="association text-center container-fluid">
+  <h3>KNIT Sultanpur Alumni Association</h3> 
+    <div class="as row">
+      <div class="move col-6 col-md-3">
+        <a  href="/registration"> <i class=" fa-3x fa fa-star-o" ></i></a> 
+       <div class="rectangle"> <h5>REGISTER NOW!</h5>
+        <p >Register for Magnum Opus & get all the updates about the meet.</p></div>
+      </div>
+      <div class="move col-6 col-md-3">
+       <a  href="#"> <i class="fa-3x fa fa-male" aria-hidden="true"></i> </a>
+       <div class="rectangle"> <h5 >VOLUNTEER</h5>
+        <p class="">Volunteer for Alumni Meet & contribute.</p></div>
+      </div>
+      <div class="move col-6 col-md-3">
+      <a  href="#">  <i class=" fa-3x fa fa-share-alt" aria-hidden="true"></i> </a>
+      <div class="rectangle">  <h5 >INVITE</h5>
+        <p >Invite your friends to join the Alumni Portal & register for Alumni Meet.</p></div>
+      </div>
+      <div class="move col-6 col-md-3">
+      <a  href="/about">  <i  class=" fa-3x fa fa-address-card-o" aria-hidden="true"></i> </a>
+       <div class="rectangle"> <h5>GET IN TOUCH</h5>
+        <p>Contact us for more details about the program.</p></div>
+      </div>
+    </div>
+</div>
+<div class="text-center container-fluid son">
+  <h3 style="padding-bottom:10px;">Our top Alumnies</h3>
+  <div class="text-center row respon">
+    <div class="text-center col-md-5">
+      <img src="download1.jif" class="center" style="width:120px; height:120px;">
+      <p>Shristi jain</p>
+    </div>  
+    <div class="col-md-5">
+          <img src="download2.jif" class="center" style="width:120px; height:120px;">
+      <p>Raj Chaurasia</p>
+    </div>
+    <div class="col-md-5">
+          <img src="download3.jif" class="center" style="width:120px; height:120px;">
+      <p>Atharva Upadhyay</p>
+    </div>
+    <div class="col-md-5">
+          <img src="download4.jif" class="center" style="width:120px; height:120px;">
+      <p>Noman Akhtar</p>
+    </div>
+    <div class="col-md-5">
+          <img src="download5.jif" class="center" style="width:120px; height:120px;">
+      <p>Deepak Yadav</p>
+    </div>
+    <div class="col-md-5">
+          <img src="download6.jif" class="center" style="width:120px; height:120px;">
+      <p>Rajeev Kumar</p>
+    </div>
+    <div class="col-md-5">
+          <img src="download7.jif" class="center" style="width:120px; height:120px;">
+      <p>Nitin Singh</p>
+    </div>
+    <div class="col-md-5">
+          <img src="download8.jif" class="center" style="width:120px; height:120px;">
+      <p>Krishna Yadav</p>
+    </div>
+    <div class="col-md-5">
+          <img src="download9.jif" class="center" style="width:120px; height:120px;">
+      <p>Ranveer Yadav</p>
+    </div>
+    <div class="col-md-5">
+          <img src="download10.jif" class="center" style="width:120px; height:120px;">
+      <p>Shailesh Kumar</p>
+    </div>
+  </div>
+</div>
+<div class="directory text-center container-fluid">
+  <h3>KNIT Sultanpur Alumni Directory</h3> 
+    <div class="as row">
+      <div class="moov col-6 col-md-3">
+      <a  href="/directory">  <i class="fa-3x far fa-folder"></i> </a>
+       <div class=""> <h5>ALUMNI DIRECTORY</h5>
+        <p >Explore IIT Indore Complete Alumni Directory & connect with alumni with your Interests & Domain.</p></div>
+      </div>
+      <div class="moov col-6 col-md-3">
+       <a  href="#"> <i class="fa-3x fas fa-street-view" aria-hidden="true"></i> </a> 
+       <div class="/directory"> <h5 >YOUR BATCHMATES</h5>
+        <p class="">View Our Exclusive Batchmates Directory to know about whereabouts of your batchmates.</p></div>
+      </div>
+      <div class="moov col-6 col-md-3">
+       <a  href="#"> <i class=" fa-3x fas fa-map-marker-alt" aria-hidden="true"></i> </a>
+      <div class="/directory">  <h5 >ALUMNI IN YOUR CITY</h5>
+        <p >Find Aumni living in your city & be a part of IIT Indore meetups in your cities.</p></div>
+      </div>
+      <div class="moov col-6 col-md-3">
+       <a  href="/profile"> <i class="fa-3x fas fa-user"></i> </a>
+       <div class="/profile"> <h5>YOUR ALUMNI PROFILE</h5>
+        <p>Create & Complete your Alumni Profile & remain connected with with all opportunities matching your interest.</p></div>
+      </div>
+    </div>
+</div>
+<div class="text-center msg">
+  <h3>Message From Director</h3>
+  <img src="director.jpg" alt="director" style="padding:10px;"class="rounded-circle">
+  <h5>Proff. J.P. Pandey</h5>
+  <p>World over, the most acclaimed universities and institutions boast of having a strong and vibrant alumnus base.<br>
+The alumni network of IIT Indore forms a very important and significant element to propel the institute towards excellence in all spheres of science,<br> technology, humanity and social sciences, and in producing leaders.<br>
+IIT Indore has been fortunate, right from its first graduating batch, to have a robust institute- alumni network,<br> which we must all nurture and see its exponential growth in all dimensions.
+With the very best wishes</p></div>
+<div class="contact text-center container-fluid">
+  <div class="text-center row">
+    <div class="con col-sm-5 col-md-3">
+    <div id="co">  <h5>Contact Info</h5>
+      <p>Kamla Nehru Institute of Technology ,<br>Sultanpur -228118,<br>U.P. , India.
+    </p>
+      <i class="fas fa-phone-square">+91-912525454434</i><br><br>
+      <i class="fas fa-envelope-square">kfdf.2323@gmail.com</i>
+    </div></div>
+    <div class="map text-center col-sm-5 col-md-6">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1788.5823818877402!2d82.08121575566949!3d26.28875819300117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a7c86d691219f%3A0x99a3eb1e7c07f78f!2sKamla%20Nehru%20Institute%20of%20Technology%2C%20Sultanpur%20(U.P.)!5e0!3m2!1sen!2sin!4v1590642509586!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    </div>
+  </div>
+</div>
+<div class="quick">
+  <a class="bord" href="/home">Home</a>
+  <a class="bord" href="/about">About</a>
+  <a class="bord" href="/about">Contact</a>
+  <a class="bord" href="#">Terms And Condition</a>
+  <a href="#">Privacy</a>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha256-NXRS8qVcmZ3dOv3LziwznUHPegFhPZ1F/4inU7uC8h0=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+$('.respon').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 6,
+  slidesToScroll: 1,
+    autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+    
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+         
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
+</body>
+</html>
